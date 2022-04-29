@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+nav{
+   height: 75px;
+   left: 0;
+   top: 0;
+   width: 100% !important;
+   background-color: #ffffff;
+   display: block;
+   position: fixed;
+   line-height: 24px;
+   letter-spacing: 0px;
+   position: fixed;
+   z-index: 1;
+}
+nav ul{
+    color: #222525;
+    text-size-adjust : 100%;
+    display: flex;
+    flex-direction : row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 16px;
+    
+    
+}
+nav ul li img{
+    height: 36px;
+    margin-top: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    padding-top: 25%;
+    color: #212529;
+    margin-left: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+color: rgb(10, 128, 128) ;
+}
+nav ul li a span{
+    border-radius: 5px;
+    background-size: 200% 100%;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 20px;
+    background-color: hsl(0, 5%, 85%);
+}
+#forheight{
+    height: 700px;
+}
+
+.signup {
+    background-repeat: no-repeat;
+    object-fit: contain;
+    position: absolute;
+    margin-top: 75px;
+    height: auto;
+    width: 100%;
+    height: 100%;
+    box-sizing: inherit;
+    background-image: url("yellow-lemon.jpg");
+    background-size: cover;
+    }
+
+.boxsignup{
+    padding: 60px;
+    padding-bottom: 100px;
+    height: 500px;
+    width: 500px;
+    margin-left: 6%;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: "clearface", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+div a:hover{
+    color: rgb(10, 128, 128);
+}
+#linkbox{
+    border: 1px solid hsl(240, 3%, 33%);
+    border-radius: 3px;
+    margin: 15px;
+    padding: 15px;
+    padding-bottom: 35px;
+    color: hsl(240, 3%, 33%);
+    height: 40px;
+
+} 
+#linkbox a {
+    vertical-align: super;
+    padding-left: 20px;
+    padding-top: -20px;
+    display: inline-block;
+}
+#linkbox img{
+    display: inline-block;
+}
+#createanaccount{
+    display: inline-block;
+    background-color: #f45d48;
+    color: white;
+    padding: 12px 25px;
+    width: 30%;
+    border: 1px solid #525257;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+#createanaccount a{
+    color: white;
+}
+#learnmore{
+    display: inline-block;
+    background-color: rgb(197, 177, 160);
+    color: black;
+    padding: 12px 70px;
+    /* width: 20%; */
+    border: 1px soild #525257;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+div#flextext {
+    position: relative;
+    margin-top: 125px;
+    height: 290px;
+    display: flex;
+    justify-content: space-around;
+}
+div#\34 block {
+    /* border: 1px solid black; */
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 90px;
+    /* margin-bottom: 50px; */
+}
+#textbg{
+    text-align: left;
+    width: 20%;
+    display: inline-block;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+#boxof6 img{
+    height: 80px;
+    padding: 40px;
+}
+#boxof6{
+    width: 150px;
+    font-weight: 700;
+}
+div#\36 box {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+#peoplepartner{
+    width: 35%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    margin-top:260px;
+}
+.one{
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 5.5%;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 12%;
+    float: left;
+}
+.sub{
+    display: inline-flex;
+    flex-direction:column;
+}
+
+
